@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUI KEYGENERATOR</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/icon.min.css">
+    <link rel="stylesheet" href="css/skeleton.min.css">
+    <link rel="stylesheet" href="css/wow.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/tachyons.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/balloon.min.css">
+    <link rel="stylesheet" href="css/metro-all.min.css">
+    <link rel="stylesheet" href="css/blueprint.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(120deg, #1a1a1d, #4e4e50);
+            color: #f8f8f2;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.7), 0 0 30px rgba(255, 0, 0, 0.5);
+            text-align: center;
+            width: 500px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h2 {
+            font-family: 'Impact', sans-serif;
+            color: #FF0000;
+            margin-bottom: 20px;
+        }
+        .key-display {
+            font-family: 'Courier New', monospace;
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 20px;
+            color: #FF0000;
+            font-size: 20px;
+            box-shadow: 0 0 10px #FF0000;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #FF6347;
+        }
+        .generate-btn {
+            background-color: #FF0000;
+            color: #000;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            margin-top: 20px;
+        }
+        .generate-btn:hover {
+            background-color: #e50000;
+            box-shadow: 0 0 15px #e50000, 0 0 30px #e50000;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container animate__animated animate__fadeIn" data-aos="zoom-in">
+        <h2>GUI KEYGENERATOR</h2>
+                <form method="post">
+            <button type="submit" class="generate-btn hvr-pulse-grow">Generate New Key</button>
+        </form>
+    </div>
+    <script src="js/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        AOS.init();
+        new WOW().init();
+    </script>
+
+
+</body></html>
